@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
     <meta charset="UTF-8">       
     <title>Janaína Bandeira </title>
@@ -8,14 +9,34 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    
+  <header>
+      <div class="center">
+         <div class="logo">
+            <h2>Janaína Bandeira</h2>
+         </div>
+         <div class="menu">
+            <a href="#">
+                Sobre Mim
+            </a>
+            <a href="#">
+                Redes Sociais 
+            </a>
+            <a href="#">
+                Contato
+            </a>
+         </div>        
+    
+      </div>
+   </header>
+    
     <div class="banner">
-        <div class="banner-title">
+        <div class="banner-title">     
             <h1 class="titulo">Oi, Eu sou a Janaína Bandeira</h1>
             <p class="subtitulo"> Welcome to my world </p>
             <a class="botao" target="blank"  href="https://www.instagram.com/janainabc_/">Me segue lá no insta </a>
         </div>
     </div>
-
     <div class="container">
         <section class="sobre">
             
@@ -143,7 +164,82 @@
                 <p class="redes-links__subtitulo">/janainabandeira</p>
             </a>  
         </section>
-    </div>
+
+
+        <div>
+            <section class="titulo-redes">
+                <h1> Contato</h1>
+    
+            </section>
+        </div>
+
+        <section>
+            <form action="">
+
+                <div class="formtitulo">
+                <p> <strong>Deixe seu contato para novidades </strong> </p>
+                <br>
+    
+                <label>Nome:</label>
+                <input type="text" nome="nome" id="inputNome" placeholder="nome" required/>
+                       
+                <label>Email:</label>
+                <input type="email" nome="email" id="inputemail"/>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+
+                </div>
+                   
+
+                
+                <div>
+                    <section class="titulo-redes">
+                        <h1> Pesquisa</h1>
+                    </section>
+                </div>
+            
+                <div class="campo">
+                        <p><strong>De que lado da aplicação você desenvolve? </strong></p>
+                        <input type="radio" nome="devweb" volume="frontend">  Front-end </label>
+                        <label>
+                        <input type="radio" nome="devweb" volume="backend"> Back-end </label>
+                        <label> <input type="radio" nome="devweb" volume="fullstack"> fullstack </label>
+                </div>        
+                       
+                
+                <div class="campo">
+                        <p><strong > Selecione como Tecnologias que utiliza: </strong > </p><br > <br >
+                        <input  type = "checkbox" id = " tecnologia1 " name = " tecnologia1 " value = " HTML " >
+                        <label  for = "tecnologia1" > HTML </label >
+                        <input  type =  "checkbox" id = " tecnologia2 " name = " tecnologia2 " value = " CSS " >
+                        <label  for = "tecnologia2" > CSS </label >
+                        <input  type = "checkbox" id = " tecnologia3 " name = " tecnologia3 " value = " JavaScript " >
+                        <label  for = "tecnologia3" > JavaScript </label >
+                        <input  type = "checkbox" id = " tecnologia4 " name = " tecnologia4 " value = " PHP " >
+                        <label  for = "tecnologia4" > PHP </label >
+                        <input  type = "checkbox" id = " tecnologia5 " name = " tecnologia5 " value = " C # " >
+                        <label  for = "tecnologia5" > C # </label >
+                        <input  type = "checkbox" id = " tecnologia6 " name = " tecnologia6 " value = " Python " >
+                        <label  for = "tecnologia6" > Python </label >
+                        <input  type = "checkbox" id = " tecnologia7 " name = " tecnologia7 " value = " Java " >
+                        <label  for = "tecnologia7" > Java </label >
+                </div>
+
+                
+            
+
+                <div class="campo">
+                <p><strong > Conte um pouco mais da sua experiência com programação: </strong > </p>
+                <textarea  rows = " 6 " style = "width: 26em" id = "experiencia" name = "experiencia" > </textarea >
+                <button type="submit">Enviar</button>
+                </div >
+                 
+
+                   
+            </form>
+        </section>
+    
+  
 </body>
     
 

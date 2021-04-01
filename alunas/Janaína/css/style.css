@@ -3,10 +3,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins',sans-serif;
+
 }
 
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 a {
@@ -27,6 +30,7 @@ h2 {
 section {
     margin: 80px 0 0;
 }
+
 
 .container {
     width: 1140px;
@@ -69,6 +73,7 @@ section {
     color: rgb(134 59 94);
     padding: 15px 25px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .sobre .titulo-sobre {
@@ -187,6 +192,79 @@ section {
     color: #ffb6d8;
     text-align: center;
 }
+
+
+
+
+.center{
+    max-width:1100px ;
+    margin: auto;
+    padding: 0 2%;
+    display: :flex;
+}
+
+.logo h2{
+    color:#864865
+}
+
+.menu a{
+    color:red;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: white;
+
+}
+
+.menu a:hover{
+    color: #ffb6d8;
+}
+
+header{
+    background-color: #ffb6d8;
+    padding: 1px 0;
+    border-bottom: 2px solid white;
+}
+
+.formtitulo{
+ font-family: sans-serif;
+ margin-left: 7%;
+ background-color: #ffb6d8;
+ width: 1000px auto;
+ height: 100px;
+ border-radius: 3px;
+ color:#864865;
+ text-align: center;
+ 
+}
+ 
+
+.formtitulo p{
+    color:white;
+    padding-left: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.campo {
+  background-color: #ffb6d8;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.campo p{
+    color:white;
+    padding-left: 10px;
+    text-align: center;
+}
+
+}
+  
+ 
+
+
+
+
 
 
 </style>

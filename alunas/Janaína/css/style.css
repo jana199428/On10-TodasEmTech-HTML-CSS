@@ -32,9 +32,15 @@ section {
 }
 
 
+
 .container {
-    width: 1140px;
+    max-width:1200px;
     margin: 0 auto;
+    margin-right: -210px;
+    margin-left: 70px;
+    
+    
+
 }
 
 .banner {
@@ -78,6 +84,7 @@ section {
 
 .sobre .titulo-sobre {
     margin-bottom: 20px; 
+    
 }
 
 .sobre .titulo-sobre .tt {
@@ -91,7 +98,7 @@ section {
 }
 
 .sobre .box-sobre-desc {
-    width: 65%;
+    width: 60%;
 }
 
 .sobre .box-sobre-desc p {
@@ -122,8 +129,12 @@ section {
     padding: 25px 25px;
     border-radius: 5px;
     position:relative;
-    background-color: #ffb6d8;
-    height:auto;
+    background-color:#ffb6d8;
+    float: right;
+    width: auto;
+
+    
+
 }
 
 .sobre .sobre-habilidades:before {
@@ -193,50 +204,52 @@ section {
     text-align: center;
 }
 
-
-
-
-.center{
-    max-width:1100px ;
-    margin: auto;
+.center {
+    background-color: #ffb6d8;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
     padding: 0 2%;
-    display: :flex;
+
 }
 
-.logo h2{
-    color:#864865
+
+.logo h2 {
+    color: #864865;
+    font-weight: normal;
+    font-size: 22px ;
 }
 
-.menu a{
-    color:red;
+.menu a {
+    color: white;
+    justify-content:space-between;
+    align-items: center;
     font-size: 14px;
     text-decoration: none;
-    border-bottom: white;
+    margin-right: 30px;
 
+   
 }
 
 .menu a:hover{
-    color: #ffb6d8;
+    color: #863b5e;
 }
 
-header{
-    background-color: #ffb6d8;
-    padding: 1px 0;
-    border-bottom: 2px solid white;
-}
 
 .formtitulo{
  font-family: sans-serif;
- margin-left: 7%;
- background-color: #ffb6d8;
- width: 1000px auto;
- height: 100px;
+ margin-left: 250px;
+ margin-right: 250px;
+ background-color:#ffb6d8;
  border-radius: 3px;
  color:#864865;
  text-align: center;
- 
+ padding: 20px;
 }
  
+
 
 .formtitulo p{
     color:white;
@@ -249,7 +262,9 @@ header{
   background-color: #ffb6d8;
   border-radius: 3px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .campo p{
@@ -258,13 +273,9 @@ header{
     text-align: center;
 }
 
+@media screen and (max-widht: 768px){
+    .menu{width: 100%;}
+    
 }
-  
- 
-
-
-
-
-
 
 </style>
